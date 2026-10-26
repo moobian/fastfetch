@@ -1,0 +1,97 @@
+// --- FASTFETCH CONFIG ---
+
+// place config in /home/username/.config/fastfetch/, ensure the file name is config.jsonc
+// ensure Jetbrains Mono NerdFont is installed to display ligatures properly 
+// official fastfetch examples located at /usr/share/fastfetch/presets/examples
+// image used was 800 x 800 px, ensure its in the same directory as your fastfetch config 
+
+{
+    
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "~/.config/fastfetch/debian-square-tr.png",
+        //"source": "/path/to-file/filename.png",
+        "width": 28,
+        "height": 14,
+        "padding": {
+            "top": 1,
+            "left": 2,
+            "right": 1
+        }
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        {
+            "key": "{#37}╭─────────────╮",
+            "type": "custom"
+        },
+        {
+            "key": "{#37}│ {#31}󰇅 Host      {#keys}{#37}│",
+            "type": "title",
+            "format": "{host-name}",
+        },
+        {
+            "key": "{#37}│ {#31}{icon} Distro    {#keys}{#37}│",
+            "type": "os",
+        },
+        {
+            "key": "{#37}│ {#31} Kernel    {#keys}{#37}│",
+            "type": "kernel",
+        },
+        {
+            "key": "{#37}│ {#31} Install   {#keys}{#37}│",
+            "type": "command",
+            "text": "LC_ALL=C date -d \"@$(stat -c %W /)\" \"+%d-%m-%Y %H:%M\" 2>/dev/null || echo N/A"
+
+        },
+        {
+            "key": "{#37}│ {#32}󰇄 DE        {#keys}{#37}│",
+            "type": "de",
+        },
+        {
+            "key": "{#37}│ {#32} Terminal  {#keys}{#37}│",
+            "type": "terminal",
+        },
+        {
+            "key": "{#37}│ {#32} Shell     {#keys}{#37}│",
+            "type": "shell",
+        },
+        {
+            "key": "{#37}│ {#32} Font      {#keys}{#37}│",
+            "type": "terminalfont",
+        },
+        {
+            "key": "{#37}│ {#36}󰍛 CPU       {#keys}{#37}│",
+            "type": "cpu",
+            "showPeCoreCount": true,
+        },
+        {
+            "key": "{#37}│ {#36}󰉉 Disk      {#keys}{#37}│",
+            "type": "disk",
+            "folders": "/",
+        },
+        {
+            "key": "{#37}│ {#36} Memory    {#keys}{#37}│",
+            "type": "memory",
+        },
+        {
+            "key": "{#37}│ {#36}󰓡 Swap      {#keys}{#37}│",       
+            "type": "swap",
+        },
+        {
+            "key": "{#37}├─────────────┤",
+            "type": "custom",
+        },
+        {
+            "key": "{#37}│ {#39} Colours   {#keys}{#37}│",
+            "type": "Colors",
+            "symbol": "circle",
+        },
+        {
+            "key": "{#37}╰─────────────╯",
+            "type": "custom",
+        }
+    ]
+}
