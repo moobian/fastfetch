@@ -1,9 +1,13 @@
 // --- FASTFETCH CONFIG ---
 
-// place config in /home/username/.config/fastfetch/, ensure the file name is config.jsonc
 // ensure Jetbrains Mono NerdFont is installed to display ligatures properly 
-// official fastfetch examples located at /usr/share/fastfetch/presets/examples
-// image used was 800 x 800 px, ensure its in the same directory as your fastfetch config 
+
+// backup your /home/username/.config/fastfetch/config.jsonc
+// rename this config to config.jsonc and copy to /home/username/.config/fastfetch/
+
+// image used was 800 x 800 px, ensure its in /home/username/.config/fastfetch/
+// to preserve privacy when posting screenshots online username and IP address
+// module information has been removed
 
 {
     
@@ -23,6 +27,7 @@
         "separator": " "
     },
     "modules": [
+    "break",    
         {
             "key": "{#37}╭─────────────╮",
             "type": "custom"
@@ -65,7 +70,7 @@
         {
             "key": "{#37}│ {#36}󰍛 CPU       {#keys}{#37}│",
             "type": "cpu",
-            "showPeCoreCount": true,
+            "format": "{name} {freq-max}",
         },
         {
             "key": "{#37}│ {#36}󰉉 Disk      {#keys}{#37}│",
