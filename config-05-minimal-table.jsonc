@@ -1,0 +1,126 @@
+// --- FASTFETCH CONFIG ---
+
+// ensure Jetbrains Mono NerdFont is installed to display ligatures properly 
+
+// backup your /home/username/.config/fastfetch/config.jsonc
+// rename this config to config.jsonc and copy to /home/username/.config/fastfetch/
+
+// image used was 800 x 800 px, ensure its in /home/username/.config/fastfetch/
+// to preserve privacy when posting screenshots online username and IP address
+// module information has been removed
+
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+		"source": "~/.config/fastfetch/debian-square-tr.png",
+		//"source": "/path/to-file/filename.png",
+		"width": 20,
+		"height": 10,
+		"padding": {
+			"top": 2,
+			"left": 12,
+			"right": 1
+        }
+	},
+	"display": {
+		"separator": " ",
+		"color": {
+			"keys": "38;5;252",
+			"title": "38;5;120"
+			},
+		"bar": {
+		"width": 8,
+		"char": {
+			"elapsed": "━",
+			"total": "─"
+			},
+		"border": {
+			"left": "",
+		"right": ""
+			},
+		"color": {
+			"elapsed": "38;5;223",
+			"total": "38;5;66",
+			//"border": "38;5;240"
+			}
+		},
+		"size": {
+			"spaceBeforeUnit": "never",
+			"ndigits": 1
+			}
+		},
+	"modules": [
+	"break",
+    		{
+			"type": "host",
+			"key": "     ",
+    		},
+    		{
+			"type": "custom",
+			"format": "\u001b[38;5;240m───────────────────────────────────────────\u001b[0m"
+    		},
+    		{
+    			"type": "os",
+			"key": " {icon}   ",
+			"format": "{name} {version-id}"
+    		},
+    		{
+			"type": "kernel",
+			"key": "    ",
+			"format": "{release}"
+    		},
+    		{
+			"key": " 󰇄   ",
+			"type": "de",
+    		},
+    		{
+			"key": "    ",
+			"type": "terminal",
+    		},
+    		{
+			"type": "custom",
+			"format": "\u001b[38;5;240m───────────────────────────────────────────\u001b[0m"
+    		},
+    		{
+			"type": "cpu",
+			"key": " 󰻠   ",
+			//"format": "{name} x {cores-logical}",
+			"format": "{name} {freq-max}",
+			"temp": false
+    		},
+    		{
+			"type": "memory",
+			"key": "    ",
+			"format": "{percentage-bar} {used} / {total}",
+			"percent": {
+			"type": 2
+		}
+    		},
+    		{
+			"type": "disk",
+			"key": "    ",
+			"folders": "/",
+			"format": "{size-percentage-bar} {size-used} / {size-total}",
+			"percent": {
+			"type": 2
+		}
+		},
+		{
+			"type": "swap",
+			"key": " 󰓡   ",
+			"format": "{percentage-bar} {used} / {total}",
+			"percent": {
+			"type": 2
+		}
+		},
+		{
+			"type": "custom",
+			"format": "\u001b[38;5;240m───────────────────────────────────────────\u001b[0m"
+		},
+		{
+			"type": "colors",
+			"symbol": "circle",
+			"paddingLeft": 6
+		}
+	]
+}
