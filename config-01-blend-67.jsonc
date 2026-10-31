@@ -1,6 +1,6 @@
 // --- FASTFETCH CONFIG ---
 
-// this sample is a blend of official fastfetch examples/6 and examples/7
+// this is a blend of official fastfetch examples/6 and examples/7
 
 // ensure Jetbrains Mono NerdFont is installed to display ligatures properly 
 
@@ -12,7 +12,7 @@
 // module information has been removed
 
 {
-    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
         "source": "~/.config/fastfetch/debian-square-tr.png",
         //"source": "/path/to-file/filename.png",
@@ -49,10 +49,10 @@
             "keyColor": "yellow"
         },
         {
-        "type": "command",
-        "key": "├",
-        "keyColor": "yellow",
-        "text": "LC_ALL=C date -d \"@$(stat -c %W /)\" \"+%d-%m-%Y %H:%M\" 2>/dev/null || echo N/A"
+            "type": "command",
+            "key": "├",
+            "keyColor": "yellow",
+            "text": "LC_ALL=C date -d \"@$(stat -c %W /)\" \"+%d-%m-%Y %H:%M\" 2>/dev/null || echo N/A"
         },
         {
             "type": "packages",
@@ -135,6 +135,6 @@
             "type": "swap",
             "key": "└󰓡",
             "keyColor": "green"
-        },
+        }
     ]
 }

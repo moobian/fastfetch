@@ -10,8 +10,7 @@
 // module information has been removed
 
 {
-    
-    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
         "source": "~/.config/fastfetch/debian-square-tr.png",
         //"source": "/path/to-file/filename.png",
@@ -35,15 +34,15 @@
         {
             "key": "{#37}│ {#31}󰇅 Host      {#keys}{#37}│",
             "type": "title",
-            "format": "{host-name}",
+            "format": "{host-name}"
         },
         {
             "key": "{#37}│ {#31}{icon} Distro    {#keys}{#37}│",
-            "type": "os",
+            "type": "os"
         },
         {
             "key": "{#37}│ {#31} Kernel    {#keys}{#37}│",
-            "type": "kernel",
+            "type": "kernel"
         },
         {
             "key": "{#37}│ {#31} Install   {#keys}{#37}│",
@@ -53,50 +52,50 @@
         },
         {
             "key": "{#37}│ {#32}󰇄 DE        {#keys}{#37}│",
-            "type": "de",
+            "type": "de"
         },
         {
             "key": "{#37}│ {#32} Terminal  {#keys}{#37}│",
-            "type": "terminal",
+            "type": "terminal"
         },
         {
             "key": "{#37}│ {#32} Shell     {#keys}{#37}│",
-            "type": "shell",
+            "type": "shell"
         },
         {
             "key": "{#37}│ {#32} Font      {#keys}{#37}│",
-            "type": "terminalfont",
+            "type": "terminalfont"
         },
         {
             "key": "{#37}│ {#36}󰍛 CPU       {#keys}{#37}│",
             "type": "cpu",
-            "format": "{name} {freq-max}",
+            "format": "{name} {freq-max}"
         },
         {
             "key": "{#37}│ {#36}󰉉 Disk      {#keys}{#37}│",
             "type": "disk",
-            "folders": "/",
+            "folders": "/"
         },
         {
             "key": "{#37}│ {#36} Memory    {#keys}{#37}│",
-            "type": "memory",
+            "type": "memory"
         },
         {
             "key": "{#37}│ {#36}󰓡 Swap      {#keys}{#37}│",       
-            "type": "swap",
+            "type": "swap"
         },
         {
             "key": "{#37}├─────────────┤",
-            "type": "custom",
+            "type": "custom"
         },
         {
             "key": "{#37}│ {#39} Colours   {#keys}{#37}│",
             "type": "Colors",
-            "symbol": "circle",
+            "symbol": "circle"
         },
         {
             "key": "{#37}╰─────────────╯",
-            "type": "custom",
+            "type": "custom"
         }
     ]
 }

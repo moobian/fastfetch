@@ -10,22 +10,23 @@ Welcome to my fastfetch config presets repository
 
 <p align="center">
 Config 1: a blend of official fastfetch examples/6 and examples/7
-  <img src="./screenshots/config-01-original-blend.png" style="width: 100%;">
+  <img src="./screenshots/config-01-blend-67.png" style="width: 100%;">
 </p>
-
 <p align="center">
 Config 2: a single tall cell: system details, small footer cell: colours
   <img src="./screenshots/config-02-tall-cells.png" style="width: 100%;">
 </p>
-
 <p align="center">
 Config 3: three cells: distro details, DE and terminal details, hardware details
-  <img src="./screenshots/config-03-3cells.png" style="width: 100%;">
+  <img src="./screenshots/config-03-threecells" style="width: 100%;">
 </p>
-
 <p align="center">
-Config 4: minimalist three 3 cell: distro, system, colours
-  <img src="./screenshots/config-04-mini-cells.png" style="width: 100%;">
+Config 4: minimalist three-cell: distro, system, colours
+  <img src="./screenshots/config-04-minimal-cells.png" style="width: 100%;">
+</p>
+<p align="center">
+Config 5: minimalist two-cell table: software on top, hardware on bottom, colours
+  <img src="./screenshots/config-05-minimal-table.png" style="width: 100%;">
 </p>
 
 ## Usage
@@ -35,3 +36,7 @@ Config files: place a chosen config file in /home/username/.config/fastfetch/, e
 Fonts: [Jetbrains Mono NerdFont](https://www.jetbrains.com/lp/mono/) is required to display ligatures properly 
 
 Images: Ensure your .png image is in /home/username/.config/fastfetch/ . The Debian logo image used in my screenshots was 800 x 800 px, but you can choose any size you want. Depending on your chosen .png image, you might need to play with padding values in the config until you have the alignment you want.
+
+## Additional credits
+
+Tux logo is original art by Stefan at <a href="https://tikz.net/tux/">TikZ.net</a>

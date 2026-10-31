@@ -10,7 +10,7 @@
 // module information has been removed
 
 {
-    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
         "source": "~/.config/fastfetch/debian-square-tr.png",
         //"source": "/path/to-file/filename.png",
@@ -29,20 +29,20 @@
     "break",
         {
             "key": "{#38;5;244}╭─────────────╮",
-            "type": "custom",
+            "type": "custom"
         },
         {
             "key": "{#38;5;244}│ {#31}󰇅 Host      {#keys}{#38;5;244}│",
             "type": "title",
-            "format": "{host-name}",
+            "format": "{host-name}"
         },
         {
             "key": "{#38;5;244}│ {#31}{icon} Distro    {#keys}{#38;5;244}│",
-            "type": "os",
+            "type": "os"
         },
         {
             "key": "{#38;5;244}│ {#31} Kernel    {#keys}{#38;5;244}│",
-            "type": "kernel",
+            "type": "kernel"
         },
         {
             "key": "{#38;5;244}│ {#31} Install   {#keys}{#38;5;244}│",
@@ -51,49 +51,49 @@
         },
         {
             "key": "{#38;5;244}├─────────────┤",
-            "type": "custom",
+            "type": "custom"
         },    
         {
             "key": "{#38;5;244}│ {#32}󰇄 DE        {#keys}{#38;5;244}│",
-            "type": "de",
+            "type": "de"
         },
         {
             "key": "{#38;5;244}│ {#32} Terminal  {#keys}{#38;5;244}│",
-            "type": "terminal",
+            "type": "terminal"
         },
         {
             "key": "{#38;5;244}│ {#32} Shell     {#keys}{#38;5;244}│",
-            "type": "shell",
+            "type": "shell"
         },
         {
             "key": "{#38;5;244}│ {#32} Font      {#keys}{#38;5;244}│",
-            "type": "terminalfont",
+            "type": "terminalfont"
         },
         {
             "key": "{#38;5;244}├─────────────┤",
-            "type": "custom",
+            "type": "custom"
         },         
         {
             "key": "{#38;5;244}│ {#36}󰍛 CPU       {#keys}{#38;5;244}│",
             "type": "cpu",
-            "format": "{name} {freq-max}",
+            "format": "{name} {freq-max}"
         },
         {
             "key": "{#38;5;244}│ {#36}󰉉 Disk      {#keys}{#38;5;244}│",
             "type": "disk",
-            "folders": "/",
+            "folders": "/"
         },
         {
             "key": "{#38;5;244}│ {#36} Memory    {#keys}{#38;5;244}│",
-            "type": "memory",
+            "type": "memory"
         },
         {
             "key": "{#38;5;244}│ {#36}󰓡 Swap      {#keys}{#38;5;244}│",       
-            "type": "swap",
+            "type": "swap"
         },
         {
             "key": "{#38;5;244}╰─────────────╯",
-            "type": "custom",
-        },
+            "type": "custom"
+        }
     ]
 }
