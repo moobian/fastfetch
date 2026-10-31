@@ -18,7 +18,7 @@ Config 2: a single tall cell: system details, small footer cell: colours
 </p>
 <p align="center">
 Config 3: three cells: distro details, DE and terminal details, hardware details
-  <img src="./screenshots/config-03-threecells" style="width: 100%;">
+  <img src="./screenshots/config-03-threecells.png" style="width: 100%;">
 </p>
 <p align="center">
 Config 4: minimalist three-cell: distro, system, colours
