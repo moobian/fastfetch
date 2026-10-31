@@ -39,4 +39,4 @@ Images: Ensure your .png image is in /home/username/.config/fastfetch/ . The Deb
 
 ## Additional credits
 
-Tux logo is original art by Stefan at <a href="https://tikz.net/tux/">TikZ.net</a>
+"Tux With Bricks" is original art by Stefan at <a href="https://tikz.net/tux/">TikZ.net</a>
