@@ -29,7 +29,7 @@ Config 5: minimalist two-cell table: software on top, hardware on bottom, colour
   <img src="./screenshots/config-05-minimal-table.png" style="width: 100%;">
 </p>
 <p align="center">
-Config 5: minimalist two-cell table: narrow cell on left, wide cell on right
+Config 6: minimalist two-cell table: narrow cell on left, wide cell on right
   <img src="./screenshots/config-06-narrow-wide-cells.png" style="width: 100%;">
 </p>
 
