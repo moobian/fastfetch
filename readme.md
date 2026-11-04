@@ -28,6 +28,10 @@ Config 4: minimalist three-cell: distro, system, colours
 Config 5: minimalist two-cell table: software on top, hardware on bottom, colours
   <img src="./screenshots/config-05-minimal-table.png" style="width: 100%;">
 </p>
+<p align="center">
+Config 5: minimalist two-cell table: narrow cell on left, wide cell on right
+  <img src="./screenshots/config-06-narrow-wide-cells.png" style="width: 100%;">
+</p>
 
 ## Usage
 

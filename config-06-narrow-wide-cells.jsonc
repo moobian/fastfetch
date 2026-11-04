@@ -1,0 +1,100 @@
+// --- FASTFETCH CONFIG ---
+
+// ensure Jetbrains Mono NerdFont is installed to display ligatures properly 
+
+// backup your /home/username/.config/fastfetch/config.jsonc
+// rename this config to config.jsonc and copy to /home/username/.config/fastfetch/
+
+// image used was 800 x 800 px, ensure its in /home/username/.config/fastfetch/
+// to preserve privacy when posting screenshots online username and IP address
+// module information has been removed
+
+{
+"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "/path/to-file/filename.png",
+        "width": 28,
+        "height": 14,
+        "padding": {
+            "top": 1,
+            "left": 2,
+            "right": 1
+        }
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+    "break",
+        {
+            "key": "{#38;5;244}╭────────────┬──────────────────────────────────────╮",
+            "type": "custom"
+        },
+        {
+            "key": "{#38;5;244}│ {#31}󰇅 Host     {#keys}{#38;5;244}│",
+            "type": "host",
+            "format": "{vendor}{name}{version}               {#38;5;244}│"
+        },
+        {
+            "key": "{#38;5;244}│ {#31}{icon} Distro   {#keys}{#38;5;244}│",
+            "type": "os",
+            "format": "{pretty-name}         {#keys}{#38;5;244}│"
+        },
+        {
+            "key": "{#38;5;244}│ {#31} Kernel   {#keys}{#38;5;244}│",
+            "type": "kernel",
+            "format": "{release}               {#keys}{#38;5;244}│"
+        },
+        {
+            "key": "{#38;5;244}│ {#31} Install  {#keys}{#38;5;244}│",
+            "type": "command",
+            "text": "LC_ALL=C date -d \"@$(stat -c %W /)\" \"+%d-%m-%Y %H:%M\" 2>/dev/null || echo N/A",
+            "format": "{result}                     {#keys}{#38;5;244}│"
+        },
+        {
+            "key": "{#38;5;244}│ {#32}󰇄 DE       {#keys}{#38;5;244}│",
+            "type": "de",
+            "format": "{pretty-name} {version}                           {#keys}{#38;5;244}│"
+        },
+        {
+            "key": "{#38;5;244}│ {#32} Terminal {#keys}{#38;5;244}│",
+            "type": "terminal",
+            "format": "{pretty-name} {version}                        {#keys}{#38;5;244}│"
+        },
+        {
+            "key": "{#38;5;244}│ {#32} Shell    {#keys}{#38;5;244}│",
+            "type": "shell",
+            "format": "{pretty-name} {version}                          {#keys}{#38;5;244}│"            
+        },
+        {
+            "key": "{#38;5;244}│ {#32} Font     {#keys}{#38;5;244}│",
+            "type": "terminalfont",
+            "format": "{combined}       {#keys}{#38;5;244}│"   
+        },
+        {
+            "key": "{#38;5;244}│ {#36}󰍛 CPU      {#keys}{#38;5;244}│",
+            "type": "cpu",
+            "format": "{name} {freq-max} {#38;5;244}│"
+        },
+        {
+            "key": "{#38;5;244}│ {#36}󰉉 Disk     {#keys}{#38;5;244}│",
+            "type": "disk",
+            //"folders": "/"
+            "format": "{size-used} / {size-total} ({size-percentage})         {#38;5;244}│"
+        },
+        {
+            "key": "{#38;5;244}│ {#36} Memory   {#keys}{#38;5;244}│",
+            "type": "memory",
+            "format": "{used} / {total} ({percentage})            {#38;5;244}│"
+        },
+        {
+            "key": "{#38;5;244}│ {#36}󰓡 Swap     {#keys}{#38;5;244}│",
+            "type": "swap",
+            "format": "{used} / {total} ({percentage})                  {#38;5;244}│"
+        },
+        {
+            "key": "{#38;5;244}╰────────────┴──────────────────────────────────────╯",
+            "type": "custom"
+        }
+    ]
+}
