@@ -7,9 +7,7 @@
 
 // config has been written to be centre-aligned in the terminal screen, adjust your
 // padding values to be closer to 0 if you prefer left-aligned
-
 // image used was 1:1 square in aspect, ensure its in /home/username/.config/fastfetch/
-
 // to preserve your privacy when posting screenshots online, the 
 // username and IP address modules have been removed from this config
 
@@ -47,7 +45,7 @@
         {
             "key": "{#38;5;244}│ {#31} Kernel   {#keys}{#38;5;244}│",
             "type": "kernel",
-            "format": "{release}               {#keys}{#38;5;244}│"
+            "format": "{release}                 {#keys}{#38;5;244}│"
         },
         {
             "key": "{#38;5;244}│ {#31} Install  {#keys}{#38;5;244}│",
