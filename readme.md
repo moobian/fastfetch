@@ -35,12 +35,12 @@ Config 6: minimalist two-cell table: narrow cell on left, wide cell on right
 
 ## Usage
 
-Config files: place a chosen config file in /home/username/.config/fastfetch/, ensure the file name is config.jsonc
+I have added some notes to each config file.
 
-Fonts: [Jetbrains Mono NerdFont](https://www.jetbrains.com/lp/mono/) is required to display ligatures properly 
+Config files: copy the chosen config file in /home/username/.config/fastfetch/, ensure the file name is config.jsonc
 
-Images: Ensure your .png image is in /home/username/.config/fastfetch/ . The Debian logo image used in my screenshots was 800 x 800 px, but you can choose any size you want. Depending on your chosen .png image, you might need to play with padding values in the config until you have the alignment you want.
+Fonts: [Jetbrains Mono NerdFont](https://www.jetbrains.com/lp/mono/) is required to display ligatures properly. Terminals such as Ghostty, Kitty and Alacritty can render NerdFont ligatures. Check your terminal type documentation to confirm that it supports NerdFont ligatures.
 
-## Additional credits
+Images: Ensure your .png image is in /home/username/.config/fastfetch/ . The images I use are 1:1 aspect ratio (ie, square), but you can choose any size you want. Depending on your chosen .png image, you may need to play with padding values in the config until you have the alignment you want.
 
-"Tux With Bricks" is original art by Stefan at <a href="https://tikz.net/tux/">TikZ.net</a>
+Privacy: for privacy, I exclude username and IP address address modules in my configs, and they have been excluded from the ones here as well.
