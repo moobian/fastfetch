@@ -8,6 +8,8 @@ Welcome to my fastfetch config presets repository
 
 ## Config Gallery
 
+For privacy, I remove username and IP address address modules in my configs.
+
 <table>
   <tr>
     <td width=50%><img src="./screenshots/config-01-blend-67.png" width="100%" alt="Config 1: a blend of official fastfetch examples/6 and examples/7"></td>
@@ -24,21 +26,36 @@ Welcome to my fastfetch config presets repository
 </table>
 
 ## Logo Gallery
+
+All images are .png with transparent backgrounds.
+
 <table>
   <tr>
-    <td></td>
+    <td width=50%><img src="./logos/arch-square-tr.png" width="100%" alt="Arch Linux logo"></td>
+    <td width=50%><img src="./logos/debian-square-tr.png" width="100%" alt="Debian logo"></td>
+  </tr>
+  <tr>
+    <td width=50%><img src="./logos/fedora-square-tr.png" width="100%" alt="Fedora logo"></td>
+    <td width=50%><img src="./logos/gnome-square-tr.png" width="100%" alt="GNOME logo"></td>
+  </tr>
+  <tr>
+    <td width=50%><img src="./logos/ghostty-icon-lg.png" width="100%" alt="Ghostty logo"></td>
+    <td width=50%><img src="./logos/pixel-cow-duck.png" width="100%" alt="Pixel art cow and duck"></td>  
+  </tr>
+  <tr>
+    <td width=50%><img src="./logos/voxel-cow.png" width="100%" alt="Voxel art cow"></td>
+    <td width=50%><img src="./logos/voxel-ghostty.png" width="100%" alt="Voxel art Ghostty logo"></td>
+  </tr>
+  <tr>
+    <td width=50%><img src="./logos/voxel-sauropod.png" width="100%" alt="Voxel art sauropod"></td>
+    <td width=50%><img src="./logos/voxel-tux-penguin.png" width="100%" alt="Voxel art Linux Tux Penguin"></td>
   </tr>
 </table>
 
-
 ## Usage
 
-I have added some notes to each config file.
+<u>Config files</u>: copy the chosen config file in /home/username/.config/fastfetch/, ensure the file name is config.jsonc
 
-Config files: copy the chosen config file in /home/username/.config/fastfetch/, ensure the file name is config.jsonc
+<u>Fonts</u>: [Jetbrains Mono NerdFont](https://www.jetbrains.com/lp/mono/) is required to display ligatures properly. Terminals such as Ghostty, Kitty and Alacritty can render NerdFont ligatures. Check your terminal  documentation to confirm that it supports NerdFont ligatures.
 
-Fonts: [Jetbrains Mono NerdFont](https://www.jetbrains.com/lp/mono/) is required to display ligatures properly. Terminals such as Ghostty, Kitty and Alacritty can render NerdFont ligatures. Check your terminal  documentation to confirm that it supports NerdFont ligatures.
-
-Images: Ensure your .png image is in /home/username/.config/fastfetch/ . The images I use are 1:1 aspect ratio (ie, square), but you can choose any size you want. Depending on your chosen .png image, you may need to play with padding values in the config until you have the alignment you want.
-
-Privacy: for privacy, I exclude username and IP address address modules in my configs, and they have been excluded from the ones here as well.
+<u>Logos</u>: Ensure your .png image is in /home/username/.config/fastfetch/ . The images I use are 1:1 aspect ratio (ie, square), but you can choose any size you want. Depending on your chosen .png image, you may need to play with padding values in the config until you have the alignment you want.
