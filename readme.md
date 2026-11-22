@@ -12,16 +12,16 @@ For privacy, I remove username and IP address address modules in my configs.
 
 <table>
   <tr>
-    <td width=25%><img src="./screenshots/config-01-blend-67.png" width="100%" alt="Config 1: a blend of official fastfetch examples/6 and examples/7"></td>
-    <td width=25%><img src="./screenshots/config-02-tall-cells.png" width="100%" alt="Config 2: a single tall cell: system details, small footer cell: colours"></td>    
+    <td width=25%><img src="./screenshots/moobian-ff01.png" width="100%" alt="A blend of official fastfetch examples/6 and examples/7"></td>
+    <td width=25%><img src="./screenshots/moobian-ff02.png" width="100%" alt="A tall main cell divided into multi-row and a lower single-row sub-cell"></td>    
   </tr>
   <tr>
-    <td width=25%><img src="./screenshots/config-03-threecells.png" width="100%" alt="Config 3: three cells: distro details, DE and terminal details, hardware details"></td>
-    <td width=25%><img src="./screenshots/config-04-minimal-cells.png" width="100%" alt="Config 4: minimalist three-cell: distro, system, colours"></td>    
+    <td width=25%><img src="./screenshots/moobian-ff03.png" width="100%" alt="One tall main cell divided into three equal-size sub-cells"></td>
+    <td width=25%><img src="./screenshots/moobian-ff04.png" width="100%" alt="A large horizontal main cell divided into a narrow and wide sub-cells"></td>    
   </tr>
   <tr>
-    <td width=25%><img src="./screenshots/config-05-minimal-table.png" width="100%" alt="Config 5: minimalist two-cell table: software on top, hardware on bottom, colours"></td>
-    <td width=25%><img src="./screenshots/config-06-narrow-wide-cells.png" width="100%" alt="Config 6: minimalist two-cell table: narrow cell on left, wide cell on right"></td>    
+    <td width=25%><img src="./screenshots/moobian-ff05.png" width="100%" alt="A main cell divided into three minimal sub-cells"></td>
+    <td width=25%><img src="./screenshots/moobian-ff06.png" width="100%" alt="An open table divided two horizontal rows"></td>    
   </tr>
 </table>
 
