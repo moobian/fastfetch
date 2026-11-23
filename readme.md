@@ -31,28 +31,34 @@ All images created or modified by me and are .png with transparent backgrounds.
 
 <table>
   <tr>
-    <td width=25%><img src="./logos/arch-square-tr.png" width="100%" alt="Arch Linux logo"></td>
-    <td width=25%><img src="./logos/cachyos-square-tr.png" width="100%" alt="Debian logo"></td>
-    <td width=25%><img src="./logos/debian-square-tr.png" width="100%" alt="Debian logo"></td>
-    <td width=25%><img src="./logos/fedora-square-tr.png" width="100%" alt="Fedora logo"></td>
+    <td width=25%><img src="./logos/arch-square-tr.png" width="100%"></td>
+    <td width=25%><img src="./logos/astroboy.png" width="100%"></td>
+    <td width=25%><img src="./logos/astroboy-diagram-grid.png" width="100%"></td>
+    <td width=25%><img src="./logos/cachyos-square-tr.png" width="100%"></td>
   </tr>
   <tr>
-    <td width=25%><img src="./logos/gnome-square-tr.png" width="100%" alt="GNOME logo"></td>
-    <td width=25%><img src="./logos/ghostty-icon-lg.png" width="100%" alt="Ghostty logo"></td>
-    <td width=25%><img src="./logos/intel-4004-cpu-1971.png" width="100%" alt="Pixel art cow and duck"></td>  
-    <td width=25%><img src="./logos/pixel-cow-duck.png" width="100%" alt="Pixel art cow and duck"></td>
+    <td width=25%><img src="./logos/debian-square-tr.png" width="100%"></td>
+    <td width=25%><img src="./logos/fedora-square-tr.png" width="100%"></td>
+    <td width=25%><img src="./logos/ghostty-icon-lg.png" width="100%"></td>
+    <td width=25%><img src="./logos/gnome-square-tr.png" width="100%"></td>
   </tr>
   <tr>
-    <td width=25%><img src="./logos/voxel-cow.png" width="100%" alt="Voxel art cow"></td>
-    <td width=25%><img src="./logos/voxel-cpu.png" width="100%" alt="Voxel art CPU"></td>
-    <td width=25%><img src="./logos/voxel-facehugger.png" width="100%" alt="Voxel art CPU"></td>
-    <td width=25%><img src="./logos/voxel-hadrosaur.png" width="100%" alt="Voxel art CPU"></td>
+    <td width=25%><img src="./logos/gnu-linux-cpu-2d.png" width="100%"></td>
+    <td width=25%><img src="./logos/gnu-linux-cpu-3d.png" width="100%"></td>
+    <td width=25%><img src="./logos/intel-4004-cpu-1971.png" width="100%"></td>  
+    <td width=25%><img src="./logos/pixel-cow-duck.png" width="100%"></td>
   </tr>
   <tr>
-    <td width=25%><img src="./logos/voxel-pc.png" width="100%" alt="Voxel art CPU"></td>
-    <td width=25%><img src="./logos/voxel-sauropod.png" width="100%" alt="Voxel art sauropod"></td>
-    <td width=25%><img src="./logos/voxel-tux-penguin.png" width="100%" alt="Voxel art Linux Tux Penguin"></td>
-    <td width=25%><img src="./logos/voxel-xenomorph.png" width="100%" alt="Voxel art PC"></td>
+    <td width=25%><img src="./logos/voxel-cow.png" width="100%"></td>
+    <td width=25%><img src="./logos/voxel-cpu.png" width="100%"></td>
+    <td width=25%><img src="./logos/voxel-facehugger.png" width="100%"></td>
+    <td width=25%><img src="./logos/voxel-hadrosaur.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td width=25%><img src="./logos/voxel-pc.png" width="100%"></td>
+    <td width=25%><img src="./logos/voxel-sauropod.png" width="100%"></td>
+    <td width=25%><img src="./logos/voxel-tux-penguin.png" width="100%"></td>
+    <td width=25%><img src="./logos/voxel-xenomorph.png" width="100%"></td>
   </tr>
 </table>
 
