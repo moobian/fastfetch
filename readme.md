@@ -6,9 +6,11 @@ Welcome to my fastfetch config presets repository
 
 [Fastfetch](https://github.com/fastfetch-cli/fastfetch) is a command-line tool used to display system information and hardware specs alongside ASCII art or an image. Fastfetch is a modern replacement for the discontinued Neofetch.
 
-## Config Gallery
+## Fastfetch Config Screenshot Gallery
 
-For privacy, I remove username and IP address address modules in my configs.
+All screenshots are in [Debian](https://www.debian.org/), using [Ghostty](https://github.com/ghostty-org/ghostty) terminal, terminal font is [Jetbrains Mono NerdFont](https://www.jetbrains.com/lp/mono/).
+
+For privacy, I remove username and IP address address modules in my configs. 
 
 <table>
   <tr>
@@ -25,9 +27,9 @@ For privacy, I remove username and IP address address modules in my configs.
   </tr>
 </table>
 
-## Logo Gallery
+## Fastfetch Logo Gallery
 
-All images created or modified by me and are .png with transparent backgrounds.
+All logo images here are .png with transparent backgrounds. Some are original works made by me, others are modified by me based on other artworks.
 
 <table>
   <tr>
@@ -64,8 +66,8 @@ All images created or modified by me and are .png with transparent backgrounds.
 
 ## Usage
 
-<u>Config files</u>: copy the chosen config file in /home/username/.config/fastfetch/, ensure the file name is config.jsonc
+Config files: copy the chosen config file in /home/username/.config/fastfetch/, ensure the file name is config.jsonc
 
-<u>Fonts</u>: [Jetbrains Mono NerdFont](https://www.jetbrains.com/lp/mono/) is required to display ligatures properly. Terminals such as Ghostty, Kitty and Alacritty can render NerdFont ligatures. Check your terminal  documentation to confirm that it supports NerdFont ligatures.
+Fonts: [Jetbrains Mono NerdFont](https://www.jetbrains.com/lp/mono/) is required to display ligatures properly. Terminals such as [Ghostty](https://github.com/ghostty-org/ghostty), [Kitty](https://github.com/kovidgoyal/kitty) and [Alacritty](https://github.com/alacritty/alacritty) can render NerdFont ligatures. Check your terminal documentation to confirm that it supports NerdFont ligatures.
 
-<u>Logos</u>: Ensure your .png image is in /home/username/.config/fastfetch/ . The images I use are 1:1 aspect ratio (ie, square), but you can choose any size you want. Depending on your chosen .png image, you may need to play with padding values in the config until you have the alignment you want.
+Logos: Ensure your .png image is in /home/username/.config/fastfetch/ . The images I use are 1:1 aspect ratio (ie, square), but you can choose any size you want. Depending on your chosen .png image, you may need to play with padding values in the config until you have the alignment you want.
