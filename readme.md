@@ -83,9 +83,10 @@ All logo images here are .png with transparent backgrounds. Some are original wo
 
 <table>
   <tr>
-    <td width=33%><img src="./logos/pixel-cow-brown.png" width="100%"></td>
-    <td width=33%><img src="./logos/pixel-duck.png" width="100%"></td>
-    <td width=33%><img src="./logos/pixel-cow-duck.png" width="100%"></td>
+    <td width=25%><img src="./logos/pixel-cow-brown.png" width="100%"></td>
+    <td width=25%><img src="./logos/pixel-duck.png" width="100%"></td>
+    <td width=25%><img src="./logos/pixel-cow-duck.png" width="100%"></td>
+    <td width=25%><img src="./logos/pixel-highland-cow.png" width="100%"></td>
   </tr>
 </table>
 
