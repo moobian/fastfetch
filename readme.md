@@ -60,9 +60,10 @@ All logo images here are .png with transparent backgrounds. Some are original wo
 
 <table>
   <tr>    
-    <td width=33%><img src="./logos/gnu-linux-cpu-2d.png" width="100%"></td>
-    <td width=33%><img src="./logos/gnu-linux-cpu-3d.png" width="100%"></td>
-    <td width=33%><img src="./logos/intel-4004-cpu-1971.png" width="100%"></td>  
+    <td width=25%><img src="./logos/gnu-linux-cpu-2d.png" width="100%"></td>
+    <td width=25%><img src="./logos/gnu-linux-cpu-3d.png" width="100%"></td>
+    <td width=25%><img src="./logos/intel-4004-cpu-1971.png" width="100%"></td>
+    <td width=25%><img src="./logos/3dfx-logo.png" width="100%"></td>
   </tr>
 </table>
 
