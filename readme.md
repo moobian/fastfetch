@@ -55,38 +55,46 @@ All logo images here are .png with transparent backgrounds. Some are original wo
     <td width=50%><img src="./logos/gnome-square-tr.png" width="100%"></td>
     <td width=50%><img src="./logos/kde-icon.png" width="100%"></td>
   </tr>
+</table>
 
 
 ### Hardware themed
 
+<table>
   <tr>    
     <td width=33%><img src="./logos/gnu-linux-cpu-2d.png" width="100%"></td>
     <td width=33%><img src="./logos/gnu-linux-cpu-3d.png" width="100%"></td>
     <td width=33%><img src="./logos/intel-4004-cpu-1971.png" width="100%"></td>  
   </tr>
+</table>
 
 
 ### Anime & Cartoon themed
 
+<table>
   <tr>
     <td width=25%><img src="./logos/astroboy.png" width="100%"></td>
     <td width=25%><img src="./logos/astroboy-diagram-grid.png" width="100%"></td>
     <td width=25%><img src="./logos/transformers-autobot.png" width="100%"></td>
     <td width=25%><img src="./logos/transformers-autobot.png" width="100%"></td>
   </tr>
+</table>
 
 
 ### Pixel-art themed
 
+<table>
   <tr>
     <td width=33%><img src="./logos/pixel-cow-brown.png" width="100%"></td>
     <td width=33%><img src="./logos/pixel-duck.png" width="100%"></td>
     <td width=33%><img src="./logos/pixel-cow-duck.png" width="100%"></td>
   </tr>
+</table>
 
 
 ### Voxel-art themed
 
+<table>
   <tr>
     <td width=25%><img src="./logos/voxel-cow.png" width="100%"></td>
     <td width=25%><img src="./logos/voxel-cpu.png" width="100%"></td>
