@@ -36,22 +36,20 @@ All logo images here are .png with transparent backgrounds. Some are original wo
 
 <table>
   <tr>
-    <td width=50%><img src="./logos/tux-linux-icon.png" width="100%"></td>
-    <td width=50%><img src="./logos/arch-square-tr.png" width="100%"></td>
-  </tr>
-  <tr>  
-    <td width=50%><img src="./logos/cachyos-square-tr.png" width="100%"></td>
-    <td width=50%><img src="./logos/debian-square-tr.png" width="100%"></td>
+    <td width=25%><img src="./logos/tux-linux-icon.png" width="100%"></td>
+    <td width=25%><img src="./logos/arch-square-tr.png" width="100%"></td>
+    <td width=25%><img src="./logos/cachyos-square-tr.png" width="100%"></td>
+    <td width=25%><img src="./logos/debian-square-tr.png" width="100%"></td>
   </tr>
   <tr>
-    <td width=50%><img src="./logos/fedora-square-tr.png" width="100%"></td>
+    <td width=25%><img src="./logos/fedora-square-tr.png" width="100%"></td>
+    <td width=25%><img src="./logos/linux-mint-logo.png" width="100%"></td>
+    <td width=25%><img src="./logos/ubuntu-linux-logo.png" width="100%"></td>
     <td width=50%><img src="./logos/ghostty-icon-lg.png" width="100%"></td>
   </tr>
   <tr>
     <td width=50%><img src="./logos/alacritty-terminal-icon.png" width="100%"></td>
     <td width=50%><img src="./logos/kitty-terminal-icon.png" width="100%"></td>
-  </tr>
-  <tr>
     <td width=50%><img src="./logos/gnome-square-tr.png" width="100%"></td>
     <td width=50%><img src="./logos/kde-icon.png" width="100%"></td>
   </tr>
