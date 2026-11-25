@@ -76,7 +76,7 @@ All logo images here are .png with transparent backgrounds. Some are original wo
     <td width=25%><img src="./logos/astroboy.png" width="100%"></td>
     <td width=25%><img src="./logos/astroboy-diagram-grid.png" width="100%"></td>
     <td width=25%><img src="./logos/transformers-autobot.png" width="100%"></td>
-    <td width=25%><img src="./logos/transformers-autobot.png" width="100%"></td>
+    <td width=25%><img src="./logos/transformers-decepticon.png" width="100%"></td>
   </tr>
 </table>
 
